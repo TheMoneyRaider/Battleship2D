@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Battleship
+comment1.params=l
+comment1.target=Battleship(int)
+comment2.params=
+comment2.target=int\ getLength()
+comment3.params=width\ height
+comment3.target=void\ setPosRan(int,\ int)
+comment3.text=\r\n\ \ \ public\ void\ setPos(int\ x,int\ y){\r\n\ \ \ \ \ \ for(int\ i\=this.segs.length-1;i>\=0;i--){\r\n\ \ \ \ \ \ \ \ this.segs[i][0]\ \=\ x+i;\r\n\ \ \ \ \ \ \ \ this.segs[i][1]\ \=\ y;\r\n\ \ \ \ \ \ }\r\n\ \ \ }\r\n
+comment4.params=x\ y\ b
+comment4.target=void\ setNPos(int,\ int,\ int)
+comment5.params=x\ y
+comment5.target=int\ getPos(int,\ int)
+comment6.params=
+comment6.target=boolean\ getLife()
+comment7.params=
+comment7.target=void\ die()
+comment8.params=
+comment8.target=int[][]\ getSegs()
+numComments=9

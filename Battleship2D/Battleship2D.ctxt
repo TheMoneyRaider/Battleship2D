@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Battleship2D
+comment1.params=
+comment1.target=Battleship2D()
+comment10.params=a
+comment10.target=boolean\ checkConflict(Battleship)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=target1\ target2
+comment3.target=boolean\ guess(int,\ int)
+comment4.params=a
+comment4.target=void\ setShipRan(Battleship)
+comment4.text=\r\n\ \ \ \ public\ void\ setShip(Battleship\ a,int\ x,int\ y){\r\n\ \ \ \ \ boolean\ error\ \=\ true;\r\n\ \ \ \ \ while(error){\ \r\n\ \ \ \ \ \ \ \ a.setPos(x,y);\r\n\ \ \ \ \ \ \ \ this.checkConflict(a);\r\n\ \ \ \ \ \ \ }\ \ \r\n\ \ \ \ \ sea.add(a);\r\n\ \ \ \ }\r\n
+comment5.params=
+comment5.target=int\ getSeaSize()
+comment6.params=i
+comment6.target=Battleship\ getShip(int)
+comment7.params=
+comment7.target=java.util.ArrayList\ getSea()
+comment8.params=j
+comment8.target=boolean\ checkLife(int)
+comment9.params=i
+comment9.target=void\ removeShip(int)
+numComments=11
